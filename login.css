@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    margin-top: 0px;
+    width: 100%;
+    background: rgb(2, 0, 36, 25%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    padding: 10px;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    padding: 2.5%;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-image: url('https://images2.alphacoders.com/588/588686.jpg');
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    background-position: center;
+
+}
+
+.login-form {
+    color: white;
+    background-color: rgba(12, 12, 73, 0.425);
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    background-position: center;
+    padding: 2%;
+    background-color: none;
+    border-radius: 7px;
+    width: 40%;
+    margin: auto;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.login-control {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding-left: 5px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+input[type="text"]:focus-visible,
+input[type="password"]:focus-visible {
+    outline: none;
+}
+
+.boton-login {
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    opacity: 0.7;
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    background-position: center;
+    
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:focus {
+    color: white;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    margin-top: 0px;
+    width: 100%;
+    background: rgb(2, 0, 36, 45%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    padding: 0px;
+    height: 4%;
+}
